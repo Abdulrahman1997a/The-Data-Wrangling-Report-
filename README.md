@@ -16,3 +16,10 @@ Image prediction file, based breed of dog is in each tweet, I downloaded the ima
 
 ### Additional Data via the Twitter API 
 Additional data collection including "Retweet count "and "Favorite count", using python's tweepy library. 
+
+## Assessing Data 
+After gathering the data and storing them in DataFrames, assessing the data for quality and tidiness. 
+
+Data were assessed based on quality and tidiness.
+- Low quality is data has content issues such as missing, inaccurate. So I doing I removing unnecessary columns, converting data types, and removing outliers.
+- Untidy is data has structural issues. So I doing gathering dog stages from multiple columns into one, creating a “prediction” column (dog, not dog, maybe dog), and combining the three datasets into one. 
